@@ -1,0 +1,23 @@
+@import "compass_twitter_bootstrap";
+body{
+  margin-top: 100px;
+}
+.well {
+  min-height: 550px;
+}
+.active {
+  background: red;
+}
+.list {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 15px;
+  min-height: 350px;
+}
+.inner_list {
+  width: 300px;
+  padding-left: 15px;
+}
+.count {
+  margin-bottom: 10px;
+}
