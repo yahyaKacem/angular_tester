@@ -1,0 +1,15 @@
+<div class="container well" ng-controller="HttpCtrl">
+    <p><input ng-model="item"></p>
+    <button class="btn btn-primary" ng-click="add(item)">
+      Add item
+    </button>
+    &nbsp;item: {{item}}
+    <h2>Data fetched with http:</h2>
+    <div class="list">
+      <div class="count">data.count: {{data.length}}</div>
+      <div ng-repeat="d in data" class="inner_list">
+        <span>{{d}}</span>
+        <span class="pull-right close" ng-click="delete(d)">&#10006;</span>
+      </div>
+    </div>
+  </div>

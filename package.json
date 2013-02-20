@@ -1,7 +1,9 @@
 {
   "name": "angular-tester",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "grunt-google-cdn": "0.0.1"
+  },
   "devDependencies": {
     "grunt": "0.4.0rc7",
     "grunt-contrib-copy": "0.4.0rc7",
