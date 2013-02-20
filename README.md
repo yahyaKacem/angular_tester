@@ -5,7 +5,7 @@ project for testing AngularJS
 
 ##testing:
 
-- $http
+- **$http**
 - ngList
 - ngSwitch
 - ngSubmit
